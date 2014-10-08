@@ -19,4 +19,7 @@ git的使用小结:
    添加文件: git add fileName 
    提交文件: git commit -m "log content"
 
-6,
+6,查看当前的仓库的状态  git status
+   查看文件的差异: git diff fileName
+   查看版本的日志: git log --pretty=oneline
+   
