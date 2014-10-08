@@ -22,4 +22,10 @@ git的使用小结:
 6,查看当前的仓库的状态  git status
    查看文件的差异: git diff fileName
    查看版本的日志: git log --pretty=oneline
-   
+   版本切换:  git reset --hard versionId(版本编号)
+   git reflog 查看提交日志,记录你每一次的命令
+
+7,git add 命令是把修改放到暂存区里, .git目录下
+  git commit 是把修改从暂存区放到版本区里,就是我们看到的目录;
+
+  git管理的是修改
