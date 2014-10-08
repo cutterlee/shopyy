@@ -29,3 +29,18 @@ git的使用小结:
   git commit 是把修改从暂存区放到版本区里,就是我们看到的目录;
 
   git管理的是修改,每次修改都必须先add到暂存区,然后才能提交,no add ,no commit　
+
+  在没有commit之前,撤销修改的命令  git checkout --   fileName
+  在commit之后,版本回退
+
+  git的删除文件,如果删除之后没提交到版本库,或者已经提交到版本库,直接版本回退,可恢复;
+  删除之后,提交,并push保存了删除;
+
+ 8,远程仓库---github
+     注册github的账号;
+     本地生成rsa公钥私钥对,命令如下:
+     ssh-keygen
+     设置一个密文即可生成公钥私钥对,把id_rsa.pub打开,把内容放到github上的sshkey处即可;
+
+9,
+
