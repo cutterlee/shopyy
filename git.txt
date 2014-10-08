@@ -42,5 +42,18 @@ git的使用小结:
      ssh-keygen
      设置一个密文即可生成公钥私钥对,把id_rsa.pub打开,把内容放到github上的sshkey处即可;
 
-9,
+9,关联远程仓库:
+git remote add 远程仓库代号  git@github.com:cutterlee/cocos2dx.git
+
+从远程仓库中拉取代码: git clone git@github.com:cutterlee/cocos2dx.git
+使用这个命令可以拉取很多开源的放在github上的代码到本地仓库进行查看和修改
+
+
+10,   .gitignore文件里可以放忽略的文件,就是说这些文件不用提交到git
+
+      配置别名可以加快速度:
+      $ git config --global alias.br branch
+      branch用br替代了
+
+
 
